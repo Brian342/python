@@ -1,16 +1,14 @@
-# Write a program that accepts three numbers and
-# computes their sum, product and average.
-num1 = int(input("Enter number 1: "))
-num2 = int(input("Enter number 2: "))
-num3 = int(input("Enter number 3: "))
+# Write a program that accepts the radius of a circle and computes both it’s area and circumference.
+import math
+pi = 3.142
+radius = int(input("Enter the radius->"))
+area = pi * pow(radius, 2)
+circumference = 2 * pi * radius
 
-Sum = num1 + num2 + num3
-average = Sum / 3
-product = num1 * num2 * num3
+print("The radius is: " + str(radius))
+print("The area is: " + str(area))
+print("The circumference is: " + str(circumference))
 
-print("The sum is->" + str(Sum))
-print("The average is->" + str(average))
-print("The product is->" + str(product))
 
 
 
