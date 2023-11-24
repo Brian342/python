@@ -1,14 +1,14 @@
-# Write a program that accepts the radius of a circle and computes both it’s area and circumference.
-import math
-pi = 3.142
-radius = int(input("Enter the radius->"))
-area = pi * pow(radius, 2)
-circumference = 2 * pi * radius
+# Write a program that accepts the width and length of a rectangle and computes both it’s area and perimeter.
 
-print("The radius is: " + str(radius))
+length = int(input("Enter the length: "))
+width = int(input("Enter the width: "))
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print("The length is->" + str(length), "The width is->" + str(width))
 print("The area is: " + str(area))
-print("The circumference is: " + str(circumference))
-
+print("The perimeter is: " + str(perimeter))
 
 
 
