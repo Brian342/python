@@ -1,13 +1,10 @@
-# Write a program that computes the area of a right-angled triangle.
-import math
-base = int(input("Enter the base"))
-height = int(input("Enter the height"))
+# Write a program that accepts measurements in cm and converts them into metres.
+# If someone enters 200 for example, the output should take the form;
+# 200 cm = 2 metres.
+number = int(input("Enter a number in cm-> "))
 
-area = 1/2 * base * height
-
-print("The base is->" + str(base), "The height is->" + str(height))
-print("The area is->: " + str(area))
-
+convert_cm_to_metres = number // 100
+print(str(number) + "cm " " = " + str(convert_cm_to_metres) + " metres")
 
 
 
