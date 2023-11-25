@@ -3,6 +3,7 @@
 # the output should be;
 # The weight of the package is 0.1 kilograms.
 # It takes 10 such packages to form one kilogram.
+package = int(input("Enter weight in grams->"))
 
 
 
