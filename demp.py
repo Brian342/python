@@ -1,10 +1,9 @@
-# Write a program that accepts measurements in cm and converts them into metres.
-# If someone enters 200 for example, the output should take the form;
-# 200 cm = 2 metres.
-number = int(input("Enter a number in cm-> "))
+# Write a program that accepts temperature in degrees Celsius and converts and outputs it in degrees Fahrenheit.
 
-convert_cm_to_metres = number // 100
-print(str(number) + "cm " " = " + str(convert_cm_to_metres) + " metres")
+temp = int(input("Enter the Temperature in degree celsius->"))
+convert_degree_to_fahrenheit = (temp * (0.9/0.5) + 32)
 
+print("The temperature is->" + str(temp))
+print("The temperature in degree fahrenheit is->" + str(convert_degree_to_fahrenheit))
 
 
