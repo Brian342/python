@@ -1,14 +1,12 @@
-# Write a program that accepts the width and length of a rectangle and computes both it’s area and perimeter.
+# Write a program that computes the area of a right-angled triangle.
+import math
+base = int(input("Enter the base"))
+height = int(input("Enter the height"))
 
-length = int(input("Enter the length: "))
-width = int(input("Enter the width: "))
+area = 1/2 * base * height
 
-area = length * width
-perimeter = 2 * (length + width)
-
-print("The length is->" + str(length), "The width is->" + str(width))
-print("The area is: " + str(area))
-print("The perimeter is: " + str(perimeter))
+print("The base is->" + str(base), "The height is->" + str(height))
+print("The area is->: " + str(area))
 
 
 
