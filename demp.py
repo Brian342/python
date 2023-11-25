@@ -1,15 +1,16 @@
-# Write a program that accepts a number and then outputs its square, cube, square root and cube root.
-import math
-number = int(input("Enter a number->"))
-square = math.pow(number, 2)
-cube = math.pow(number, 3)
-sqrt = math.sqrt(number)
-cubeRoot = math.cbrt(number)
+# Write a program that prints God bless Kenya. 25 times on the screen using: -
+# do…while loop.
+# while… loop
+# for… loop.
+# while loop
+name = 0
+while name <= 25:
+    print("God Bless Kenya")
+    name += 1
 
-output = (f'the square is->{math.floor(square)}, The cube is->{math.floor(cube)}, The sqrt is->{math.floor(sqrt)}'
-          f', The cube-root is->{cubeRoot}')
 
-print(output)
+
+
 
 
 
