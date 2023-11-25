@@ -1,15 +1,10 @@
-# Write a program that accepts distance traveled in metres and the time taken in
-# minutes and then outputs the speed in kilometers per hour (km/h). E.g. if someone enters a distance (in metres)
-# of 500 and a time (in minutes) of 15 the output for speed should be 2 km/h.
+# Write a program that accepts measurements in kilometers and the converts and displays them in metres.
+# E.g. if someone enters 0.4 (kilometers) the output should take the form 0.4 kilometers = 400 metres.
 import math
 
-distance = int(input("Enter distance in metres->"))
-time = int(input("Enter time in minutes->"))
+measurements = float(input("Enter measurement in Kilometres->"))
+convert_kilometers_to_metres = measurements * 1000
+output = f'{measurements} kilometers = {math.floor(convert_kilometers_to_metres)} metres.'
+print(output)
 
-convert_distance_to_kilometres = distance / 1000
-convert_minutes_to_hour = time / 60
-
-speed = math.floor(convert_distance_to_kilometres / convert_minutes_to_hour)
-
-print("The speed is->" + str(speed) + " Km/h")
 
