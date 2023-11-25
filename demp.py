@@ -1,10 +1,8 @@
-# Write a program that accepts measurements in kilometers and the converts and displays them in metres.
-# E.g. if someone enters 0.4 (kilometers) the output should take the form 0.4 kilometers = 400 metres.
-import math
+# Write a program that accepts the weight of a package in grams and then converts it to kilograms and also specifies
+# how many such packages form one kilogram. For example, if the user enters the weight (in grams) of the package as 100,
+# the output should be;
+# The weight of the package is 0.1 kilograms.
+# It takes 10 such packages to form one kilogram.
 
-measurements = float(input("Enter measurement in Kilometres->"))
-convert_kilometers_to_metres = measurements * 1000
-output = f'{measurements} kilometers = {math.floor(convert_kilometers_to_metres)} metres.'
-print(output)
 
 
