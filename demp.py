@@ -3,7 +3,18 @@
 # the output should be;
 # The weight of the package is 0.1 kilograms.
 # It takes 10 such packages to form one kilogram.
-package = int(input("Enter weight in grams->"))
+import math
+
+package = int(input("Enter weight of package in grams->"))
+convert_grams_to_kilograms = package / 1000
+
+print("The weight of the package is " + str(convert_grams_to_kilograms) + " kilograms")
+
+if package % 1000 == 0:
+    print("IT takes " + str(package) + " such packages to form one kilogram")
+else:
+    print("it takes " + str(math.floor(1000 / (package % 1000))) + " such packages to form one kilogram")
+
 
 
 
